@@ -1,0 +1,21 @@
+<%- include partial/header %>
+    <h1>Compose</h1>
+    <form action="/compose" method="POST">
+
+
+        <div class="form-group">
+
+
+            <label class="form-label"> Title</label>
+            <input type="text" name="txt" class="form-control">
+            <label>Message</label>
+            <textarea class="form-control" name="message" rows="5" cols="30"></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit" value="btn">publish</button>
+
+
+
+    </form>
+
+
+    <%- include partial/footer %>

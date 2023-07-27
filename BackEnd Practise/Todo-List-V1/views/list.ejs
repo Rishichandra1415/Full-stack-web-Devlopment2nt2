@@ -1,0 +1,30 @@
+<%- include('header.ejs') -%>
+
+    <!-- Headaing style.. -->
+    <div class="box" id="heading">
+        <h1>
+            <%= kay %>
+        </h1>
+    </div>
+    <div class="box">
+        <% for(var i=0;i<newListItems.length;i++){%>
+            <div class="item">
+                <input type="checkbox">
+                <p>
+                    <%= newListItems[i]%>
+                </p>
+            </div>
+            <%}%>
+                <form class="item" action="/" method="POST">
+
+                    <input type="text" name="Item" placeholder="NewItem" autocomplete="off">
+
+                    <button type="submit" name="List" value=<%=kay %>>+</button>
+
+
+
+                </form>
+
+    </div>
+
+    <%- include('footer.ejs') -%>

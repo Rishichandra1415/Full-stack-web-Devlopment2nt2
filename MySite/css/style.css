@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+.top {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+h1 {
+    margin: 50px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-size: 3.25rem;
+    color: #66BFBF;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.middle {
+    margin: 100px 0;
+}
+
+.bottom {}
+
+.pro {
+    text-decoration: underline;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+p {
+    line-height: 2;
+}
+
+.bottom-cloud {
+    position: absolute;
+}
+
+.top-cloud {
+    position: absolute;
+    left: 1000px;
+    top: 15px;
+}
+
+.my-pic {
+    height: 200px;
+    width: 200px;
+}
+
+.skill-pic1 {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-pic2 {
+    width: 25%;
+    float: right;
+    /*float  is use to float left-right in any direction in this we can change the text of thr image present in itt */
+    margin-left: 30px;
+}
+
+.touch {
+    height: 200px;
+    width: 200px
+}
+
+
+/* programer */
+
+.footer-link {
+    color: #11999E;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+
+/* basically its clear--- is a antifloat properties */
+
+
+/* 
+.skill-para1 {
+    clear: left;
+}
+
+.skill-para2 {
+    clear: right;
+} */
+
+.bottom {
+    padding: 50px 0px 50px 0px;
+    background-color: #66BFBF;
+}
+
+hr {
+    border: dotted 6px;
+    border-bottom: none;
+    width: 2%;
+    color: #859595;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.footer-link {
+    color: #a2700d;
+    font-weight: bold;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+.copy-right {
+    font-size: 20px;
+    color: #EAF6F6;
+}

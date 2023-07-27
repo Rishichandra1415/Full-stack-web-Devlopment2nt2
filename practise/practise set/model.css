@@ -1,0 +1,22 @@
+.top {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    padding: 20px;
+}
+
+.middle {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 20px;
+    margin: 0px 240px;
+}
+
+.bottom {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    padding: 20px;
+    margin-left: 480px;
+}
